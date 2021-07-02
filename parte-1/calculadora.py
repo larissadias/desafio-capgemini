@@ -16,7 +16,6 @@ from tkinter import *
 from tkinter import messagebox
 
 
-
 def calcula_alcance():
         try:
             valor_investido = investimento_input.get()
@@ -69,5 +68,5 @@ investimento_frame.grid(row=1, column=1, padx=10, pady=10)
 botao_calcular.grid(row=2, column=1, padx=10, pady=10)
 resultado.grid(row=3, column=1, padx=10, pady=10, sticky="nsew") 
 
-# Rosa a aplicação
+# Roda a aplicação
 window.mainloop()
