@@ -26,7 +26,7 @@ def calcula_alcance():
             # Calcula visualizações do anúncio (anúncio original + 4 compartilhamentos)
             for _ in range(4):
                 cliques = visualizacoes * ctr  
-                compartilhamentos = cliques * 0.15 # 
+                compartilhamentos = cliques * 0.15
                 visualizacoes = compartilhamentos * 40 # 40 novas visualizações geradas a cada compartilhamento
                 alcance_max += visualizacoes
       
@@ -52,8 +52,8 @@ investimento_input = tk.Entry(master=investimento_frame, width=23)
 
 
 # Define o layout do Widget de caixa de texto para entrada do valor investido 
-investimento_input.grid(row=4, column=0, padx=10, pady=10) #, sticky="nsew")#, sticky="w")
-investimento_texto.grid(row=3, column=0, padx=10, pady=10) #, sticky="nsew")#, sticky="w")
+investimento_input.grid(row=4, column=0, padx=10, pady=10)
+investimento_texto.grid(row=3, column=0, padx=10, pady=10)
 
 # Cria o botão calcular que chama a função calcula_alcance() e mostra o resultado
 botao_calcular = tk.Button(
@@ -61,12 +61,12 @@ botao_calcular = tk.Button(
     text="Calcular", font=labelFont1,
     command=calcula_alcance
 )
-resultado = tk.Label(master=window, font=('calibre',11,'bold'), justify=CENTER) #, text="visualizações")
+resultado = tk.Label(master=window, font=('calibre',11,'bold'), justify=CENTER)
 
 # Define o layout da aplicação
 investimento_frame.grid(row=1, column=1, padx=10, pady=10) 
 botao_calcular.grid(row=2, column=1, padx=10, pady=10)
 resultado.grid(row=3, column=1, padx=10, pady=10, sticky="nsew") 
 
-# Roda a aplicação
+# Executa a aplicação
 window.mainloop()
