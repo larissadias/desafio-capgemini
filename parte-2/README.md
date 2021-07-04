@@ -15,7 +15,7 @@ O Sistema de Gerenciamento de Anúncios permite a gestão de anúncios e o rastr
 - [SQLite](https://www.sqlite.org/index.html) (v3.33.0)
 - Testado no sistema operacional :penguin:[Ubuntu](https://ubuntu.com/download) 20.04.2
 
-## Instalação das Dependências no Linux
+### Instalação das Dependências no Linux
 
 Primeiramente, verifique se já tem o Python instalado, se você usa GNU/Linux, provavelmente já possui alguma versão do Python instalada por padrão. Para conferir, digite no terminal:
 ```bash
@@ -36,7 +36,7 @@ python3 -m tkinter
 sqlite3 –version
 ```
 
-### Instruções de Execução
+## Instruções de Execução
 O download do código do Sistema de Gerenciamento de Anúncios pode ser feito de duas maneiras, clicando no botão `code` da interface do repositório no Github e depois em `download ZIP` ou através do terminal usando o seguinte comando do [git](https://git-scm.com/):
 ```bash
 git clone https://github.com/larissadias/desafio-capgemini.git
@@ -49,7 +49,7 @@ python3 gerenciamento_de_anuncios.py
 ![alt text](https://github.com/larissadias/desafio-capgemini/blob/c3065100ec78b19a853201b83f0ecf3b824348d0/parte-2/doc/compilar.gif)
 
 
-### Instruções de Utilização
+## Instruções de Utilização
 Para cadastrar um novo anúncio no sistema de gerenciamento é preciso primeiro que você preencha os seguintes campos de informação sobre o anúncio: nome do anúncio, cliente, data de ínício da campanha, data de término da campanha e o valor em reais investido por dia. Depois dos campos preenchidos, clique no botão `Cadastrar anúncio` e as informações do anúncio serão persistidas no banco de dados. Atente-se, por favor, aos campos referentes às datas(data de ínício e data de término), pois eles necessitam ser preenchidos no formado `dias-mês-ano`, separados por um hífen `-`, como no exemplo abaixo:
 
 ![alt text](https://github.com/larissadias/desafio-capgemini/blob/c3065100ec78b19a853201b83f0ecf3b824348d0/parte-2/doc/cadastrar.gif)
@@ -73,5 +73,5 @@ Se você deseja visualizar todos os anúncios cadastrados no banco de dados do s
 Para deletar um dos anúncios cadastrados no banco de dados do sistema, primeiro selecione o anúncio a ser deletado clicando nele com o mouse e então clique no botão `Deletar anúncio selecionado`.
 ![alt text](https://github.com/larissadias/desafio-capgemini/blob/c3065100ec78b19a853201b83f0ecf3b824348d0/parte-2/doc/deletar.gif)
 
-
+### Autora
 Ana Larissa Dias - larissa.engcomp@gmail.com
