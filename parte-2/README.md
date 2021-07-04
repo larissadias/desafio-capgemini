@@ -50,14 +50,27 @@ python3 gerenciamento_de_anuncios.py
 
 
 ### Instruções de Utilização
+Para cadastrar um novo anúncio no sistema de gerenciamento é preciso primeiro que você preencha os seguintes campos de informação sobre o anúncio: nome do anúncio, cliente, data de ínício da campanha, data de término da campanha e o valor em reais investido por dia. Depois dos campos preenchidos, clique no botão `Cadastrar anúncio` e as informações do anúncio serão persistidas no banco de dados. Atente-se, por favor, aos campos referentes às datas(data de ínício e data de término), pois eles necessitam ser preenchidos no formado `dias-mês-ano`, separados por um hífen `-`, como no exemplo abaixo:
+
 ![alt text](https://github.com/larissadias/desafio-capgemini/blob/c3065100ec78b19a853201b83f0ecf3b824348d0/parte-2/doc/cadastrar.gif)
+
+
+Se for necessário atualizar alguma informação de um anúncio já cadastrado no banco de dados do sistema, é necessário apenas que você selecione o anúncio a ser atualizado clicando na linha correpondente a ele na interface gráfica do sistema, mudar a informação do campo desejado e por fim clicar no botão `Atualizar cadastro do anúncio selecinado` e as mudanças realizadas serão salvas no banco de dados. 
 
 ![alt text](https://github.com/larissadias/desafio-capgemini/blob/c3065100ec78b19a853201b83f0ecf3b824348d0/parte-2/doc/atualizar.gif)
 
+
+Para gerar o relatório contendo as projeções dos resultados de uma campanha, selecione clicando com o mouse no anúncio desejado e então clique no botão `Gerar relatório do anúncio`. Uma nova janela se abrirá contendo o relatório do anúncio com as seguintes informacões: nome do anúncio, nome do cliente, valor total investido na campanha e as projeções das quantidades máximas de visualizações, cliques e compartilhamentos que o anúncio obteve. 
+
 ![alt text](https://github.com/larissadias/desafio-capgemini/blob/c3065100ec78b19a853201b83f0ecf3b824348d0/parte-2/doc/relatorio.gif)
+
+
+Se você deseja visualizar todos os anúncios cadastrados no banco de dados do sistema, basta clicar no botão `Ver todos os anúncios cadastrados`.
 
 ![alt text](https://github.com/larissadias/desafio-capgemini/blob/c3065100ec78b19a853201b83f0ecf3b824348d0/parte-2/doc/ver_todos.gif)
 
+
+Para deletar um dos anúncios cadastrados no banco de dados do sistema, primeiro selecione o anúncio a ser deletado clicando nele com o mouse e então clique no botão `Deletar anúncio selecionado`.
 ![alt text](https://github.com/larissadias/desafio-capgemini/blob/c3065100ec78b19a853201b83f0ecf3b824348d0/parte-2/doc/deletar.gif)
 
 
